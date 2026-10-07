@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 30px;
+}
+
+.conteudo {
+    width: 100%;
+    max-width: 100%;
+
+    background-color: #111827;
+    border: 1px solid #334155;
+    border-radius: 20px;
+
+    padding: 40px;
+
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.35);
+}
+
+
+.conteudo-titulo {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.titulo-principal {
+    font-size: 36px;
+    color: #ce06ac;
+    margin-bottom: 10px;
+}
+
+.titulo-secundario {
+    font-size: 17px;
+    font-weight: normal;
+    color: #aa8ab4;
+}
+
+
+.conteudo-treino {
+    margin-bottom: 35px;
+}
+
+.conteudo-treino label {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#campo-treino {
+    min-height: 200px;
+
+    background-color: #1e293b;
+    border: 1px solid #475569;
+    border-radius: 12px;
+
+    padding: 25px;
+
+    color: #e2e8f0;
+}
+
+#campo-treino h3 {
+    color: #991c99;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+#campo-treino p {
+    margin-bottom: 8px;
+    color: #cbd5e1;
+}
+
+#campo-treino ol {
+    margin-top: 20px;
+    padding-left: 25px;
+}
+
+#campo-treino li {
+    margin-bottom: 18px;
+    padding-left: 5px;
+    line-height: 1.5;
+}
+
+#campo-treino li strong {
+    color: #ffffff;
+    font-size: 17px;
+}
+
+
+
+#gerar-treino {
+    width: 100%;
+
+    margin-top: 15px;
+    padding: 15px;
+
+    border: none;
+    border-radius: 10px;
+
+    background-color: #db5bca;
+    color: #052e16;
+
+    font-size: 17px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.2s;
+}
+
+#gerar-treino:hover {
+    background-color: #ce06ac;
+    color: white;
+
+    transform: translateY(-2px);
+}
+
+#gerar-treino:active {
+    transform: translateY(0);
+}
+
+/* PARÂMETROS */
+
+.parametro {
+    border-top: 1px solid #334155;
+    padding-top: 30px;
+}
+
+.parametro-titulo {
+    font-size: 22px;
+    margin-bottom: 25px;
+    color: #f8fafc;
+}
+
+.parametro-coluna {
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 20px;
+}
+
+.parametro-opcao {
+    background-color: #1e293b;
+
+    border: 1px solid #334155;
+    border-radius: 12px;
+
+    padding: 20px;
+}
+
+.parametro-opcao h4 {
+    margin-bottom: 12px;
+
+    font-size: 16px;
+    color: #cbd5e1;
+}
